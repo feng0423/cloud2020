@@ -1,6 +1,6 @@
 package com.tank.springcloud.service;
 
-import com.tank.springcloud.entity.Payment;
+import com.tank.springcloud.entities.Payment;
 /**
  * @Description:
  * @Author: Tank

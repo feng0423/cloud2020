@@ -2,19 +2,19 @@ package com.tank.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 /**
  * @Description:
  * @Author: Tank
- * @Date: 2020/3/13 1:07
+ * @Date: 2020/3/15 20:15
  * @Version: 1.0
  */
 @SpringBootApplication
-@EnableDiscoveryClient
-public class PaymentApplication8001 {
-    public static void main(String[] args) {
-        SpringApplication.run(PaymentApplication8001.class, args);
-    }
+@EnableEurekaServer
+public class EurekaApplication7003 {
 
+    public static void main(String[] args) {
+        SpringApplication.run(EurekaApplication7003.class, args);
+    }
 }
+

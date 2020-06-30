@@ -1,4 +1,4 @@
-package com.tank.springcloud.entity;
+package com.tank.springcloud.entities;
 
 
 import lombok.AllArgsConstructor;

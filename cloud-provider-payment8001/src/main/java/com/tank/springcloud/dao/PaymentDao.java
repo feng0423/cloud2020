@@ -1,5 +1,5 @@
 package com.tank.springcloud.dao;
-import com.tank.springcloud.entity.Payment;
+import com.tank.springcloud.entities.Payment;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 /**
