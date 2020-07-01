@@ -3,7 +3,6 @@ package com.tank.springcloud;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @Description:
@@ -12,11 +11,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * @Version: 1.0
  */
 @SpringBootApplication
-@EnableDiscoveryClient
-@EnableEurekaClient
-public class PaymentApplication8002 {
+@EnableDiscoveryClient //zk做注册中心
+public class PaymentApplication8004 {
     public static void main(String[] args) {
-        SpringApplication.run(PaymentApplication8002.class, args);
+        SpringApplication.run(PaymentApplication8004.class, args);
     }
 
 }
