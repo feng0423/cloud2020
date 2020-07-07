@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-provice-payment8006</artifactId>
+    <artifactId>cloud-consumerconsul-order80</artifactId>
 
     <dependencies>
         <dependency><!-- 引用自己定义的api通用包，可以使用Payment支付Entity -->
@@ -49,4 +49,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 </project>

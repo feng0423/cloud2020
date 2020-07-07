@@ -11,10 +11,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @Version: 1.0
  */
 @SpringBootApplication
-@EnableDiscoveryClient //zk做注册中心
-public class PaymentApplication8004 {
+@EnableDiscoveryClient
+public class PaymentApplication8006 {
     public static void main(String[] args) {
-        SpringApplication.run(PaymentApplication8004.class, args);
+        SpringApplication.run(PaymentApplication8006.class, args);
     }
 
 }
