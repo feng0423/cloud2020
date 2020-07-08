@@ -19,7 +19,6 @@
         <module>cloud-provice-payment8004</module>
         <module>cloud-consumerzk-order80</module>
         <module>cloud-provice-payment8006</module>
-        <module>cloud</module>
         <module>cloud-consumerconsul-order80</module>
     </modules>
 

@@ -11,8 +11,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @Date: 2020/3/13 1:07
  * @Version: 1.0
  */
-@SpringBootApplication(exclude= {DataSourceAutoConfiguration.class})
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 @EnableDiscoveryClient
+//@RibbonClient(name = "cloud-payment-service", configuration = MySelfRule.class)
 public class OrderApplication80 {
     public static void main(String[] args) {
         SpringApplication.run(OrderApplication80.class, args);
