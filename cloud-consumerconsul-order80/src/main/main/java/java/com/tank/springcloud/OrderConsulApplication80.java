@@ -13,9 +13,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @SpringBootApplication(exclude= {DataSourceAutoConfiguration.class})
 @EnableDiscoveryClient
-public class OrderZKApplication80 {
+public class OrderConsulApplication80 {
     public static void main(String[] args) {
-        SpringApplication.run(OrderZKApplication80.class, args);
+        SpringApplication.run(OrderConsulApplication80.class, args);
     }
 
 }

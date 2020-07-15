@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: cloud-eureka-service23
+    name: cloud-eureka-service3
 
 eureka:
   instance:

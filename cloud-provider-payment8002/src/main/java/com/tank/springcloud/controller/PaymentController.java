@@ -37,7 +37,7 @@ public class PaymentController {
     }
 
     @RequestMapping(value = "/payment/get/{id}", method = RequestMethod.GET)
-    public CommonResult getPaymenyById(@PathVariable("id")Long id) {
+    public CommonResult getPaymentById(@PathVariable("id")Long id) {
         Payment payment = paymentService.getPaymentById(id);
 
         log.info("查询结果：" + payment );
