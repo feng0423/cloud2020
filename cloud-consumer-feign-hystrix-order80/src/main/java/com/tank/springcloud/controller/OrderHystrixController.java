@@ -34,7 +34,7 @@ public class OrderHystrixController {
             @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds",value = "2000")
     })
     public String paymentInfo_Timeout(@PathVariable("id") Integer id) {
-        String result = paymentHystrixService.paymentInfo_Timeout(id);
+        String result = paymentHystrixService.paymentInfo_TimeOut(id);
         return result;
     }
 
