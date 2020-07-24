@@ -32,6 +32,7 @@ public class PaymentServiceImpl implements PaymentService {
     })
     public String paymentInfo_TimeOut(Integer id) {
         int timeNumber = 5;
+        int i = 1 / 0;
         try {
             TimeUnit.SECONDS.sleep(timeNumber);
         } catch (InterruptedException e) {
